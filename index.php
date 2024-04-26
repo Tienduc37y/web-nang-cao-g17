@@ -14,6 +14,16 @@
 			}
 		}
 		?>
+		<div>
+			<h1>Đăng nhập hệ thống</h1>
+			<form action="info.php" method="get">
+				<label for="username">Tên đăng nhập : </label>
+				<input type="text" name="username"> <br><br>
+				<label for="password">Mật khẩu:</label>
+				<input type="password" name="password"><br><br>
+				<input type="submit">
+			</form>
+		</div>
 		
 	</body>
 </html>
