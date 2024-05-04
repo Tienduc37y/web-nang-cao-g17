@@ -1,0 +1,70 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Roboto, sans-serif;
+}
+.container{
+    height: 800px;
+
+    
+}
+
+.background{
+    background-image: url('./img/bg-login.jpg');
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    position: relative;
+
+}
+.content-position{
+    position: absolute;
+    right: 547px;
+    top: 130px;
+}
+.logo{
+display: flex;
+justify-content: center;
+padding-top: 40px;
+}
+.form-container{
+    background-image: linear-gradient(to top, rgb(240, 243, 253), rgb(178, 194, 240));
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+}
+.login-form{
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    
+}
+.login-form h1{
+    color: rgb(34, 55, 113);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.input{
+    margin-top: 40px;
+}
+.input input{
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+background-color: rgb(232, 240, 254);
+border-color: rgb(172, 190, 236);
+border: 0.5px;
+    margin-left: 35px;
+}
+.btnLogin input{
+    width: 80%;
+}

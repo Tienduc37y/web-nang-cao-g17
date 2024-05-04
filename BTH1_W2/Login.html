@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="background">
+            <div class="content-position">
+                <img src="./img/login-line-1.png" alt="">
+            </div>
+            <div class="logo">
+                <img src="./img/logo-Phenikaa-w.png" alt="">
+            </div>
+            <div class="form-container">
+                <div class="login-form">
+                    <h1>Đăng nhập</h1>
+                    <form action="verify.php" method="post">
+                        <div class="input">
+                            <label for="username">
+                            </label>
+
+                            <input type="text" id="username" name="username" placeholder="Nhập tài khoản"><br><br>
+                            <div class="password">
+                                <label for="password"></label>
+                                <input type="password" id="password" name="password"
+                                    placeholder="Nhập mật khẩu"><br><br>
+                            </div>
+                        </div>
+                        <div>
+                            <input
+                                style="width: 80%; margin-left: 35px; background: rgb(34,55,113); height: 50px; color: aliceblue; border-radius: 10px; font-size: 18px; font-weight: 500;"
+                                type="submit" value="Login" class="btn-login" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
