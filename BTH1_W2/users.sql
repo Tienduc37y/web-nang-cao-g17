@@ -38,7 +38,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `password`) VALUES
-(1, 'khanh', 'khanh');
+(1, 'khanh', '3142ab78c714039df58b8795616e3fa3f4e89264');
 
 --
 -- Chỉ mục cho các bảng đã đổ
