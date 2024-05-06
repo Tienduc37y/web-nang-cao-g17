@@ -2,13 +2,25 @@
 <html>
 <head>
   <title>Upload</title>
+  <script>
+    function displayFileNames() {
+      var input = document.getElementById('fileUpload');
+      var output = document.getElementById('fileList');
+      output.innerHTML = '<b>Tên các file:</b><br>';
+      for (var i = 0; i < input.files.length; ++i) {
+        output.innerHTML += input.files[i].name + '<br>';
+      }
+    }
+  </script>
 </head>
 <body>
 <form action="upload.php" method="post" enctype="multipart/form-data">
   <b>Chọn file upload</b>
   <br>
-  <input type="file" name="fileUpload[]" id="fileUpload" multiple="multiple">
+  <input type="file" name="fileUpload[]" id="fileUpload" multiple="multiple" onchange="displayFileNames()">
   <br><br>
+  <div id="fileList"></div>
+  <br>
   <input type="submit" value="Upload" name="submit">
 </form>
 </body>
